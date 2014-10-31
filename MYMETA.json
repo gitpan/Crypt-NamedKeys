@@ -1,0 +1,51 @@
+{
+   "abstract" : "A Crypt::CBC wrapper with key rotation support",
+   "author" : [
+      "Binary.com <perl@binary.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "ExtUtils::MakeMaker version 7, CPAN::Meta::Converter version 2.142690",
+   "license" : [
+      "bsd"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Crypt-NamedKeys",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::Most" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : "0",
+            "Crypt::CBC" : "0",
+            "Crypt::Rijndael" : "0",
+            "Digest::SHA" : "0",
+            "JSON" : "0",
+            "MIME::Base64" : "0",
+            "Moo" : "0",
+            "String::Compare::ConstantTime" : "0",
+            "Try::Tiny" : "0",
+            "YAML::XS" : "0",
+            "perl" : "5.006"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "version" : "v0.0.1"
+}
