@@ -16,6 +16,7 @@ WriteMakefile(
     },
     BUILD_REQUIRES => {
         'Test::Most' => 0,
+        'Test::Differences' => 0,
     },
     PREREQ_PM => {
         'Moo' => 0,
@@ -31,4 +32,15 @@ WriteMakefile(
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'Crypt-NamedKeys-*' },
+        META_MERGE => {
+            'meta-spec' => { version => 2 },
+            resources => {
+                repository => {
+                    type => 'git',
+                    url  => 'https://github.com/binary-com/perl-Crypt-NamedKeys.git',
+                    web  => 'https://github.com/binary-com/perl-Crypt-NamedKeys',
+                                                                                                                              },
+                                                                                                                                       },
+                                                                                                                                           },
+
 );

@@ -3,6 +3,7 @@ abstract: 'A Crypt::CBC wrapper with key rotation support'
 author:
   - 'Binary.com <perl@binary.com>'
 build_requires:
+  Test::Differences: '0'
   Test::Most: '0'
 configure_requires:
   ExtUtils::MakeMaker: '0'
@@ -29,4 +30,6 @@ requires:
   Try::Tiny: '0'
   YAML::XS: '0'
   perl: '5.006'
-version: v0.0.1
+resources:
+  repository: https://github.com/binary-com/perl-Crypt-NamedKeys.git
+version: v0.0.2
