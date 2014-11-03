@@ -1,9 +1,12 @@
 Revision history for Crypt-NamedKeys
 
-0.02    2014-11-03
+1.0.0   2014-11-03
+        Adding missing test script
+
+0.0.2   2014-11-03
         Fixed missing dependency on some platforms
         Added repo to Meta
 
-0.01    2014-10-31
+0.0.1   2014-10-31
         First version, released on an unsuspecting world.
 

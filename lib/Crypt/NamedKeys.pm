@@ -156,7 +156,7 @@ use Try::Tiny;
 use YAML::XS;
 
 
-our $VERSION = '0.0.2';
+our $VERSION = '1.0.0';
 
 =head1 PROPERTIES
 

@@ -32,4 +32,4 @@ requires:
   perl: '5.006'
 resources:
   repository: https://github.com/binary-com/perl-Crypt-NamedKeys.git
-version: v0.0.2
+version: v1.0.0
